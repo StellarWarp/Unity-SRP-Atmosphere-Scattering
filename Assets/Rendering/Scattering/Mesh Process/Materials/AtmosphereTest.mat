@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AtmosphereTest
-  m_Shader: {fileID: 4800000, guid: d856155a175d4a50be6bbf5e6bef4dce, type: 3}
+  m_Shader: {fileID: 4800000, guid: ef01cfb20ba022142a098d3fe632dc9e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
