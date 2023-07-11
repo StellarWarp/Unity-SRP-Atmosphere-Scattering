@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atmosphere
+  m_Shader: {fileID: -6465566751694194690, guid: 39ac668947b4f3745879e2cfd06dd6e0,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _absorption_falloff: 14.5
+    - _atmo_radius: 798.4
+    - _g: 0.7
+    - _height_absorption: 209.96
+    - _height_mie: 10.51
+    - _height_ray: 33.74
+    - _planet_radius: 500
+    - _ray_scale: 1
+    - _scaler: 403.4
+    - _steps_i: 30
+    - _steps_l: 6
+    m_Colors:
+    - _Absorption_Beta: {r: 0.079758696, g: 0.06507221, b: 0.3353027, a: 0}
+    - _Ambient_Beta: {r: 0.0000022659538, g: 0.0000022659538, b: 0.0000022659538,
+        a: 0}
+    - _Mie_Beta: {r: 0.0007278154, g: 0.0007180065, b: 0.0007180065, a: 0}
+    - _Ray_Beta: {r: 0.002631846, g: 0.006433401, b: 0.01356132, a: 0}
+    - _beat_mie: {r: 0.000021, g: 0.000021, b: 0.000021, a: 0}
+    - _beta_absorption: {r: 0.0000204, g: 0.0000497, b: 0.00000195, a: 0}
+    - _beta_ambient: {r: 0, g: 0, b: 0, a: 0}
+    - _beta_ray: {r: 0.0000055, g: 0.000013, b: 0.0000224, a: 0}
+    - _light_intensity: {r: 40.828598, g: 40.828598, b: 40.828598, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3285378616410131774
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
