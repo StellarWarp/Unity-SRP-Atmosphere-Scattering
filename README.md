@@ -1,5 +1,7 @@
 # Unity SRP Atmosphere Scattering
 
+A quick implementation for multiple atmosphere rendering
+
 Including addition blend rendering and multi-afterprocessing transmission blend
 
 Unity Version 2022.3.2f1c1
